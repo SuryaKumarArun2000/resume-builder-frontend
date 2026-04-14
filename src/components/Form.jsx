@@ -182,7 +182,7 @@ const loadResume = async (id) => {
   try {
     const res = await fetch(`https://resume-builder-backend-0ij6.onrender.com/getResume/${id}`);
 
-    const savedData = await res.text();
+    const savedData = await res.json();
     console.log("Loaded Data:", savedData);
 
     // ✅ Set main data

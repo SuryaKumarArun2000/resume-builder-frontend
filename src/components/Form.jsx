@@ -181,7 +181,7 @@ const deleteInterest = (id) => {
 const loadResume = async (id) => {
   try {
     // const res = await fetch(`http://localhost:3000/getResume/${id}`);
-    const res = await fetch(`https://resume-builder-backend-0ij6.onrender.com/getResumes/${id}`);
+    const res = await fetch(`https://resume-builder-backend-0ij6.onrender.com/getResume/${id}`);
 
     const savedData = await res.json();
     console.log("Loaded Data:", savedData);

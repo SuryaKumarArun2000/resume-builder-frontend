@@ -1,0 +1,35 @@
+
+    // name: "Ayrus Ramuk",
+    // email: "ayrus@email.com",
+    // phone: "9876543210",
+    // linkedin: "https://linkedin.com/in/ayrus",
+    // image: samplePassport,
+    // objective: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum adipisci cum temporibus! Quaerat, quidem. Sed, tenetur at quidem quia itaque veritatis ratione magni omnis incidunt consectetur eius optio commodi vitae.",
+    // experience: [
+    //   {
+    //     role: "Software Engineer",
+    //     company: "ABC Pvt Ltd",
+    //     duration: "Jan 2023 - Present",
+    //     description: "Worked on React and Node.js applications"
+    //   },
+    //   {
+    //     role: "Frontend Developer",
+    //     company: "XYZ Ltd",
+    //     duration: "Jun 2022 - Dec 2022",
+    //     description: "Built responsive UI using React"
+    //   }
+    // ],
+    // education: [
+    //   {
+    //     degree: "B.Tech",
+    //     institution: "LNCT",
+    //     year: "2019-2023",
+    //   },
+    //   {
+    //     degree: "12th",
+    //     institution: "St. Montfort",
+    //     year: "2005-2019",
+    //   }
+    // ],
+    // interests: ["interest1", "interest2", "interest3", "interest4"],
+    // skills: ["skill1", "skill2", "skill3", "skill4"]

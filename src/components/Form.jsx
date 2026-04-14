@@ -180,7 +180,6 @@ const deleteInterest = (id) => {
 
 const loadResume = async (id) => {
   try {
-    // const res = await fetch(`http://localhost:3000/getResume/${id}`);
     const res = await fetch(`https://resume-builder-backend-0ij6.onrender.com/getResume/${id}`);
 
     const savedData = await res.json();
@@ -224,7 +223,6 @@ const loadResume = async (id) => {
 
 const fetchResumes = async () => {
   try {
-    // const res = await fetch("http://localhost:3000/getResumes");
     const res = await fetch("https://resume-builder-backend-0ij6.onrender.com/getResume");
     const data = await res.json();
     setResumeList(data);

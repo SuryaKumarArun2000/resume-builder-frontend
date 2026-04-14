@@ -16,13 +16,6 @@ const Resume = ({ data, setShowResume }) => {
     });
     const handleDownload = async () => {
       try {
-        // await fetch("http://localhost:3000/saveResume", {
-        //   method: "POST",
-        //   headers: {
-        //     "Content-Type": "application/json"
-        //   },
-        //   body: JSON.stringify(data)
-        // });
         await fetch("https://resume-builder-backend-0ij6.onrender.com/saveResume", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
